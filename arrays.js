@@ -77,3 +77,36 @@ console.log(pokemon)
 backpack.unshift('jinx statue')
 console.log('backpack after adding the statue:')
 console.log(backpack)
+
+backpack.shift()
+console.log('backpack after getting rid of the statue:')
+console.log(backpack)
+
+//you find a wild butterfree
+//which is your favorite pokemon!
+//however, once you've realized you have 7 pokemon, which is illegal
+//you're really hungry anyway, so you decide to eat one of your pidgeys
+//make a variable gor butterfree 
+//cut out a pokeball usin any array method 
+//splice out pidgey and put in butterfree where the pidgey was at
+//save the new spliced array (with pudfey in it) to a variable called lunch 
+
+let favePokemon = 'butterfree'
+backpack.unshift()
+let lunch = pokemon.splice(3,1,favePokemon)
+
+console.log('here is my backpack after catching butterfree:')
+console.log(backpack)
+console.log('and here are my pokemon:')
+console.log(pokemon)
+console.log('and here is my lunch:')
+console.log(lunch)
+
+for (let i = 0; i < pokemon.length; i++) {
+    if (pokemon === 'pidgey') {
+        pokemon[i] = 'pidgeotto'
+    }
+}
+
+console.log('after the evolution event, my pokemon are now:')
+console.log(pokemon)
