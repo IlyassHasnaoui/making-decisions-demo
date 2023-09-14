@@ -48,4 +48,26 @@ for (let i = 1; i < 3; i++) {
 
 if (isDead === false) {
     console.log(`It is a miracle! Jon is alive.`)
+
+//Jamie wants Jon dead, and ensures it will happen
+//He pursues Jon into the woods to use his fists
+
+while (jonSnowHealth >0) {
+    console.log('Jamie punches Jon')
+    jonSnowHealth -= 5
 }
+
+console.log('Okay, Jon did not make it, sorry.')
+}
+
+
+
+for (let i = 1; i <= 50; ++i) {
+    if (i % 3 === 0) {
+        console.log('Fizz')
+    } else if  (i % 5 === 0) {
+        console.log('Buzz')
+     } else (i % 3 === 0 && i % 5 ===0)
+     console.log('FizzBuzz')
+ }
+
